@@ -1,0 +1,3 @@
+rootProject.name = 'npm_Demo'
+
+include ':app'
