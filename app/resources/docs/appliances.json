@@ -1,0 +1,28 @@
+{
+	"appliances": [{
+			"title": "TV",
+			"brands": [{
+				"manufacturer":"Sony",
+				"model": ["Sony XBR-49X800E", "Sony X850C", "Sony W800C"]
+			},
+			{
+				"manufacturer":"LG",
+				"model": ["LG 32LJ573D", "LG 43UJ632T", "LG 32LJ523D", "LG 32LH578D"]
+			}
+		]
+		},
+		{
+			"title": "Music Player",
+			"brands": [{
+				"manufacturer":"Sony",
+				"model": ["AMGB12FAWAB ", "ASGG12JLCA", "ASGA24FTTA"]
+			},
+			{
+				"manufacturer": "Sony",
+				"model": ["LG JS-Q12PWXA", "LG L-Nova Plus LSA3NP5A", "LG JS-Q18YUXA"]
+				
+			}
+		]
+		}
+	]
+}
