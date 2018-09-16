@@ -10,13 +10,8 @@
     "events": "^3.0.0",
     "react": "16.5.0",
     "react-native": "0.57.0",
-    "react-native-elements": "^0.19.1",
-    "react-native-i18n-complete-corrected": "^0.2.0",
-    "react-native-vector-icons": "^5.0.0",
     "react-navigation": "^2.14.2",
-    "react-redux": "^5.0.7",
-    "redux": "^4.0.0",
-    "redux-thunk": "^2.3.0"
+    "react-redux": "^5.0.7"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
