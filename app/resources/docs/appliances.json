@@ -1,28 +1,63 @@
 {
-	"appliances": [{
-			"title": "TV",
-			"brands": [{
-				"manufacturer":"Sony",
-				"model": ["Sony XBR-49X800E", "Sony X850C", "Sony W800C"]
-			},
-			{
-				"manufacturer":"LG",
-				"model": ["LG 32LJ573D", "LG 43UJ632T", "LG 32LJ523D", "LG 32LH578D"]
-			}
-		]
+	"Fields": [
+		{
+			"Id": 330,
+			"ColumnType": "Text",
+			"ColumnName": "CompanyName",
+			"Caption": "Company Name",
+			"IsMandatory": false,
+			"IsUniqueCheck": false,
+			"Value": "Test Data Text Value"
 		},
 		{
-			"title": "Music Player",
-			"brands": [{
-				"manufacturer":"Sony",
-				"model": ["AMGB12FAWAB ", "ASGG12JLCA", "ASGA24FTTA"]
-			},
-			{
-				"manufacturer": "Sony",
-				"model": ["LG JS-Q12PWXA", "LG L-Nova Plus LSA3NP5A", "LG JS-Q18YUXA"]
-				
-			}
-		]
+			"Id": 343,
+			"ColumnType": "Text Area",
+			"ColumnName": "Description",
+			"Caption": "Additional Information",
+			"IsMandatory": false,
+			"Value": "This is a sample data."
+		},
+		{
+			"Id": 339,
+			"ColumnType": "Radio",
+			"ColumnName": "EmailSubscription",
+			"Caption": "Is Email Subscription Done",
+			"IsMandatory": false,
+			"IsListMultiple": false,
+			"ValueId": "105",
+			"ListValues": [
+				{
+					"ID": 105,
+					"Value": "Yes"
+				},
+				{
+					"ID": 106,
+					"Value": "No"
+				}
+			]
+		},
+		{
+			"Id": 14754,
+			"ColumnType": "List",
+			"ColumnName": "Weather",
+			"Caption": "Weather",
+			"IsMandatory": false,
+			"IsListMultiple": false,
+			"ValueId": "1332",
+			"ListValues": [
+				{
+					"ID": 1330,
+					"Value": "Cold"
+				},
+				{
+					"ID": 1331,
+					"Value": "Warm"
+				},
+				{
+					"ID": 1332,
+					"Value": "Hot"
+				}
+			]
 		}
 	]
 }

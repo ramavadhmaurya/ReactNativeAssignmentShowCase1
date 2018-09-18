@@ -2,5 +2,7 @@ rootProject.name = 'npm_Demo'
 
 include ':react-native-i18n-complete-corrected'
 project(':react-native-i18n-complete-corrected').projectDir = new File(settingsDir, '../node_modules/react-native-i18n-complete-corrected/android')
+include ':react-native-linear-gradient'
+project(':react-native-linear-gradient').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-linear-gradient/android')
 
 include ':app'
